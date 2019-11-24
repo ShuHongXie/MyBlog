@@ -1,0 +1,55 @@
+@import '../scss/common.scss';
+
+.pagination {
+  display:flex;
+  justify-content: center;
+  padding: 20px 0;
+  .pg_box {
+    line-height: 24px;
+    a {
+      display: inline-block;
+      width: 24px;
+      height: 24px;
+      line-height: 24px;
+      text-align: center;
+      color: $page_link_color;
+      text-decoration: underline;
+      margin: 0 2px;
+      vertical-align: middle;
+      cursor: pointer;
+      &.prev, &.next {
+        text-decoration: none;
+      }
+      &.active {
+        background-color: $base_color;
+        color: #FFF;
+        text-decoration: none;
+      }
+      i {
+        color: $page_link_color;
+      }
+    }
+    & > span {
+      color: $page_link_color;
+    }
+    & > .jump_box {
+      height: 24px;
+      display: inline-block;
+      vertical-align: middle;
+      color: $page_link_color;
+      span {
+        margin: 0 4px; 
+      }
+      input {
+        width: 50px;
+        height: 20px;
+        box-sizing: border-box;
+        border-radius: 4px;
+        background: none;
+        outline:none;
+        cursor: pointer;
+        border: 1px solid $page_link_color;
+      }
+    }
+  }
+}

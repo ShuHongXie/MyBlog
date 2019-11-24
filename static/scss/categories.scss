@@ -1,0 +1,25 @@
+#categories {
+  width: 100%;
+  position: relative;
+  .cont {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px){ // 小于768时
+  #categories {
+    .cont {
+      margin: 0 30px;
+    }
+  }
+} 
+@media screen and (min-width: 768px){ // 大于768时
+  #categories {
+    width: 100%;
+    position: relative;
+    .cont {
+      width: 700px;
+      margin: 0 auto;
+    }
+  }
+}

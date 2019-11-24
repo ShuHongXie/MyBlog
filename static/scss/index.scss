@@ -1,0 +1,41 @@
+body  {
+  &::-webkit-scrollbar-track-piece { //滚动条凹槽的颜色，还可以设置边框属性
+    background-color:#f8f8f8;
+  }
+  &::-webkit-scrollbar {//滚动条的宽度
+    width: 4px;
+    height: 4px;
+  }
+  &::-webkit-scrollbar-thumb {//滚动条的设置
+    background-color:#cf81bf;
+    background-clip: padding-box;
+    min-height:28px;
+  }
+  &::-webkit-scrollbar-thumb:hover {
+    background-color:#cf81bf;
+  }
+}
+
+#index {
+  .cont {
+    padding: 30px 0;
+  }
+}
+
+@media screen and (max-width: 768px){ // 小于768时
+  #index {
+    .cont {
+      margin: 0 30px;
+    }
+  }
+} 
+@media screen and (min-width: 768px){ // 大于768时
+  #index {
+    width: 100%;
+    position: relative;
+    .cont {
+      width: 700px;
+      margin: 0 auto;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import '../scss/common.scss';
+
+.scissors {
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+  margin: 20px 0 ;
+  &:hover {
+    i {
+      left: 80%;
+    }
+  }
+  div {
+    border-bottom: 4px dashed $base_color;
+  }
+  i {
+    color: $base_color;
+    height: 30px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    top: -13px;
+    left: 6%;
+    z-index: 10;
+    background-color: #FFF;
+    transition: 1s;
+    &.not_white {
+      background-color: #fae8f6!important;
+    }
+  }
+}

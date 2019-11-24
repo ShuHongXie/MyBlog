@@ -1,0 +1,72 @@
+// 渐变消失
+.search-enter {
+  display: block!important;
+  transform: scale(0);
+}
+.search-enter-active {
+  display: block!important;
+  transition: transform .2s;
+  transform: scale(1);
+}
+.search-enter-done{
+  display: block!important;
+  /*入场动画执行完成之后*/
+  transform: scale(1);
+}
+.search-exit {
+  display: block!important;
+  transform: scale(1);
+}
+.search-exit-active {
+  display: block!important;
+  transition: transform .2s;
+  transform: scale(0);
+}
+.search-exit-done{
+  /*入场动画执行完成之后*/
+  transform: scale(0);
+  display: none;
+}
+
+// 渐变消失
+.fade-enter {
+  display: block!important;
+  opacity: 0;
+}
+.fade-enter-active {
+  display: block!important;
+  transition: opacity .2s;
+  opacity: 1!important;
+}
+.fade-enter-done{
+  display: block!important;
+  /*入场动画执行完成之后*/
+  opacity: 1!important;
+}
+.fade-exit {
+  display: block!important;
+  opacity: 1!important;
+}
+.fade-exit-active {
+  display: block!important;
+  transition: opacity .2s;
+  opacity: 0!important;
+}
+.fade-exit-done{
+  /*入场动画执行完成之后*/
+  opacity: 0!important;
+  display: none;
+}
+
+// 主内容过渡效果
+.cont-enter {
+  opacity: 0;
+}
+.cont-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.cont-enter-done{
+  opacity: 1!important;
+  transform: translateY(0)!important;
+}

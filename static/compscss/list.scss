@@ -1,0 +1,114 @@
+@import '../scss/common.scss';
+
+.list {
+  & > ul {
+    li {
+      .sep {
+        padding: 0 10px;
+      }
+      & > .title {
+        display: block;
+        border-bottom: 1px solid #eee;
+        color: #2e2e2e;
+        text-decoration: none;
+        font-size: 30px;
+        line-height: 56px; 
+        cursor: pointer;
+        margin-bottom: 6px;
+        &:hover {
+          color: $base_color;
+          border-color: $base_color;
+        }
+      }
+      & > .tip {
+        margin-bottom: 6px;
+        line-height: 30px;
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-items: center;
+        color: #858585;
+        font-size: 16px;
+        & > span:first-child {
+          padding-left: 20px;
+          font-size: 16px;
+          position: relative;
+          &:before {
+            font-family: "iconfont";
+            content: '\e6d2';
+            position: absolute;
+            left: 0;
+            top: 0;
+            height: 100%;
+          }
+        }
+        & > .category, & > .tag {
+          display: flex;
+          align-items: center;
+          a {
+            position: relative;
+            padding: 0 20px;
+            color: #99a9bf;
+            text-decoration: underline;
+            &:hover {
+              color: $base_color;
+              text-decoration: none;
+            }
+            &:before {
+              font-family: "iconfont";
+              content: '\e703';
+              position: absolute;
+              left: 0;
+              top: 0;
+              color: #858585;
+            }
+            &:after {
+              font-family: "iconfont";
+              content: '\e709';
+              position: absolute;
+              top: 0;
+              right: 4px;
+              height: 100%;
+              color: #858585;
+            }
+            &:last-child {
+              padding-right: 0;
+              &:after {           
+                content: '';
+              }
+            }
+          }
+        }
+        & > .tag {
+          a {
+            padding-left: 20px;
+            padding-right: 5px; 
+            
+            &:before {
+              content: '\e70f';
+            }
+            &:after {           
+              content: '';
+            }
+          }
+        }
+      }
+      & >  .more {
+        display: inline-block;
+        padding: 0 12px;
+        height: 32px;
+        background: $base_color;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        line-height: 32px;
+        cursor: pointer;
+        margin: 20px 0;
+        transition: all .3s;
+        &:hover {
+          background-color: $other_color;
+        }
+      }
+    }
+  }
+}

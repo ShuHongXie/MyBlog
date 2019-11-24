@@ -1,0 +1,40 @@
+@import './common.scss';
+
+#tag {
+  & > .cont {
+    text-align: center;
+    padding: 100px 0;
+    max-width: 700px;
+    // overflow: hidden;
+    margin: 0 auto;
+    word-wrap: break-word;
+
+    & > .title {
+      padding:  30px 0;
+      font-size: 36px;
+    }
+    a {
+      padding: 0 10px;
+      line-height: 48px;
+      font-size: 30px;
+      color: $base_color;
+      display: inline-block;
+      cursor: pointer;
+      &:hover {
+        color: $other_color!important;
+      }
+      &:nth-child(1), &:nth-child(9), &:nth-child(3), &:nth-child(11), &:nth-child(14), &:nth-child(17) {
+        font-size: 15px;
+        color: #edb4e1;
+      }
+      &:nth-child(2), &:nth-child(4), &:nth-child(6), &:nth-child(7) {
+        font-size: 18px;
+        color: #fcd2f3;
+      }
+      &:last-child {
+        font-size: 12px;
+        color: #fcd2f3;
+      }
+    }
+  }
+}

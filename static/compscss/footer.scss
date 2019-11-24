@@ -1,0 +1,25 @@
+footer {
+  height: 132px;
+  padding: 40px 0;
+  box-sizing: border-box;
+  background-image: url('/static/image/f2.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  div {
+    height: 24px;
+    line-height: 24px;
+    color: #FFF;
+    .separate {
+      margin: 0 6px;
+    }
+    i {
+      color: #FFF;
+      margin: 0 4px;
+      font-weight: 400;
+      &:nth-child(4) {
+        margin-left: 0;
+      }
+    }
+  }
+}

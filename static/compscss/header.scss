@@ -1,0 +1,180 @@
+@import '../scss/common.scss';
+
+header {
+  width: 100%;
+  position: absolute;
+  height: 56px;
+  line-height: 36px;
+  padding: 10px 16px;
+  box-sizing: border-box;
+  z-index: 990;
+  & > a {
+    font-size: 18px;
+  }
+  & > .header_title {
+    &:hover {
+      color: $base_color;
+    }
+  }
+  & > .list_icon {
+    float: right;
+    font-size: 26px;
+  }
+  .nav {
+    & > a {
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        bottom: -2px;
+        width: 0;
+        height: 3px;
+        background-color: $base_color;
+        transition: .3s;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px){
+  header {
+    & > .header_title {
+      color: #000;
+    }
+    &.top {
+      & > .nav {
+        opacity: 0;
+        a {
+          color: #000;
+          &:hover {
+            color: $base_color;
+            i {
+              color: $base_color;
+            }
+            &:before {
+              width: 100%;
+              background-color: #cf65b9;
+            }
+          }
+        }
+        i {
+          color: #000;
+        }
+      }
+      & > .header_title {
+        color: #EEE;
+        &:hover {
+          color: #FFF;
+        }
+      }
+    }
+    &.no_top {
+      position: fixed;
+      & > .nav {
+        opacity: 0;
+        //background-color: rgba(255,255,255,0.6);
+        a {
+          color: #000;
+          &:hover {
+            color: $base_color;
+            i {
+              color: $base_color;
+            }
+            &:before {
+              width: 100%;
+              background-color: #cf65b9;
+            }
+          }
+        }
+      }
+      .list_icon {
+        color: #000;
+        &:hover {
+          color: $base_color
+        }
+      }
+    }
+    .nav {
+      position: fixed;
+      float: none;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: -999;
+      padding-top: 44px;
+      background-color: none;
+      a {
+        text-indent: 10px;
+        display: block;
+        background-color: rgba(255,255,255,0.6);
+      }
+      &.show {
+        transition: .3s;
+        opacity: 1;
+        transform: translateY(10px);
+      }
+      &.noshow {
+        transition: .3s;
+        opacity: 0;
+        display: none;
+        transform: translateY(0);
+      }
+    }
+    .list_icon {
+      color: #EEE;
+      &:hover {
+        color: #FFF;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px){
+  header {
+    &.top {
+      a {
+        color: #EEE;
+        &:hover {
+          color: #FFF;
+          &:before {
+            width: 100%;
+            background-color: #cf65b9;
+          }
+        }
+      }
+      i {
+        color: #FFF;
+      }
+      background-color: none;
+    }
+    &.no_top {
+      position: fixed;
+      a {
+        color: #000!important;
+        &:hover {
+          color: $base_color!important;
+          &:before {
+            width: 100%;
+          }
+        }
+      }
+      background-color: rgba(255,255,255,.5);
+    }
+    .nav {
+      float: right;
+      & > a {
+        margin: 0 5px;
+        padding: 4px 0;
+        i {
+          padding-right: 2px;
+        }
+      }
+    }
+    .list_icon {
+      display: none;
+    }
+  }
+  
+}

@@ -1,0 +1,67 @@
+@import '../scss/common.scss';
+
+.message {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  transition: .8s;
+  top: 20px;
+  opacity: 0;
+  &.hide {
+    z-index: -999;
+    opacity: 0;
+  }
+  &.show {
+    z-index: 999;
+    opacity: 1;
+  }
+  span {
+    background-color: #fff;
+    box-shadow:0px 0px 20px #666;
+    line-height: 30px;
+    padding: 4px 20px;
+    border-radius: 6px;
+    font-weight: 0;
+    font-size: 14px;
+    max-width: 80%;
+    padding-left: 50px;
+    position: relative;
+    &::before {
+      font-family: "iconfont";
+      position: absolute;
+      font-size: 30px;
+      vertical-align: middle;
+      display: inline-block;
+      height: 30px;
+      top: 4px;
+      left: 20px;
+    }
+    &.warn {
+        &::before {
+          content: '\e690';
+          color: #faad14;
+        }
+    }
+    &.error {
+      &::before {
+        content: '\e66f';
+        color: #f5222d;
+      } 
+    }
+    &.success {
+      &::before {
+        content: '\e68e';
+        color: #52c41a;
+      } 
+    }
+    &.info {
+      &::before {
+        content: '\e679';
+        color: #1890ff;
+      } 
+    }
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "../components/layout": [
+    {
+      "id": "+P61",
+      "name": "./node_modules/_core-js@2.6.10@core-js/library/modules/es6.array.from.js",
+      "file": "static/chunks/commons.26d00b5eefcf4b031b6c.js",
+      "publicPath": "static/chunks/commons.26d00b5eefcf4b031b6c.js"
+    },
+    {
+      "id": "/Z+G",
+      "name": "./static/scss/common.scss",
+      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
+      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+    },
+    {
+      "id": "5M6V",
+      "name": "./components/layout.tsx",
+      "file": "static/chunks/2f72.c3461551f77ff4af02c2.js",
+      "publicPath": "static/chunks/2f72.c3461551f77ff4af02c2.js"
+    }
+  ],
+  "./Black": [
+    {
+      "id": "/Z+G",
+      "name": "./static/scss/common.scss",
+      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
+      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+    },
+    {
+      "id": "LfW2",
+      "name": "./components/Black.tsx",
+      "file": "static/chunks/7e02.77dd8f2cefab74d12144.js",
+      "publicPath": "static/chunks/7e02.77dd8f2cefab74d12144.js"
+    }
+  ],
+  "./Message": [
+    {
+      "id": "/Z+G",
+      "name": "./static/scss/common.scss",
+      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
+      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+    },
+    {
+      "id": "giDD",
+      "name": "./components/Message.tsx",
+      "file": "static/chunks/cd5c.c2d1df38d52129483a20.js",
+      "publicPath": "static/chunks/cd5c.c2d1df38d52129483a20.js"
+    }
+  ],
+  "./Sidebar": [
+    {
+      "id": "+P61",
+      "name": "./node_modules/_core-js@2.6.10@core-js/library/modules/es6.array.from.js",
+      "file": "static/chunks/commons.26d00b5eefcf4b031b6c.js",
+      "publicPath": "static/chunks/commons.26d00b5eefcf4b031b6c.js"
+    },
+    {
+      "id": "/Z+G",
+      "name": "./static/scss/common.scss",
+      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
+      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+    },
+    {
+      "id": "+Aep",
+      "name": "./node_modules/_core-js@2.6.10@core-js/modules/es6.string.blink.js",
+      "file": "static/chunks/f0cd.52330f5f1fc6f0f67b7f.js",
+      "publicPath": "static/chunks/f0cd.52330f5f1fc6f0f67b7f.js"
+    }
+  ],
+  "./search": [
+    {
+      "id": "+P61",
+      "name": "./node_modules/_core-js@2.6.10@core-js/library/modules/es6.array.from.js",
+      "file": "static/chunks/commons.26d00b5eefcf4b031b6c.js",
+      "publicPath": "static/chunks/commons.26d00b5eefcf4b031b6c.js"
+    },
+    {
+      "id": "/Z+G",
+      "name": "./static/scss/common.scss",
+      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
+      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+    },
+    {
+      "id": "GVKV",
+      "name": "./components/scissors.tsx",
+      "file": "static/chunks/b50b.7891d5ef1bd7a94cd8ac.js",
+      "publicPath": "static/chunks/b50b.7891d5ef1bd7a94cd8ac.js"
+    }
+  ]
+}
