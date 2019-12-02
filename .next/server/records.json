@@ -1,17 +1,17 @@
 {
   "modules": {
     "byIdentifier": {
-      "multi private-next-pages/about.tsx": 0,
-      "multi private-next-pages/archives.tsx": 1,
-      "multi private-next-pages/article.tsx": 2,
-      "multi private-next-pages/categories.tsx": 3,
-      "multi private-next-pages/categoriesDetail.tsx": 4,
-      "multi private-next-pages/index.tsx": 5,
-      "multi private-next-pages/tag.tsx": 6,
-      "multi private-next-pages/tagDetail.tsx": 7,
-      "multi private-next-pages/_app.js": 8,
-      "multi private-next-pages/_document.js": 9,
-      "multi private-next-pages/_error.js": 10
+      "multi private-next-pages/_document.js": 0,
+      "multi private-next-pages/about.tsx": 1,
+      "multi private-next-pages/_error.js": 2,
+      "multi private-next-pages/archives.tsx": 3,
+      "multi private-next-pages/categories.tsx": 4,
+      "multi private-next-pages/article.tsx": 5,
+      "multi private-next-pages/categoriesDetail.tsx": 6,
+      "multi private-next-pages/index.tsx": 7,
+      "multi private-next-pages/tag.tsx": 8,
+      "multi private-next-pages/tagDetail.tsx": 9,
+      "multi private-next-pages/_app.js": 10
     },
     "usedIds": {
       "0": 0,

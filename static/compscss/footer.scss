@@ -6,6 +6,12 @@ footer {
   background-size: cover;
   background-position: center;
   text-align: center;
+  a {
+    color: #FFF;
+    line-height: 24px;
+    position: relative;
+    z-index: 1;
+  }
   div {
     height: 24px;
     line-height: 24px;

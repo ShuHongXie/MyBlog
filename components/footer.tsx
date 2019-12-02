@@ -27,6 +27,7 @@ class Footer extends Component<IProps, IState> {
           <i className='iconfont iconSeedling'></i><span>{ pvCount }</span> | 
           <i className='iconfont iconEnergy'></i><span>{ uvCount }</span>
         </div>
+        <a href="http://beian.miit.gov.cn">粤ICP备19149086号</a>
       </footer>
     )
   }

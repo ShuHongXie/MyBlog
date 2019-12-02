@@ -1,90 +1,90 @@
 {
   "../components/layout": [
     {
-      "id": "+P61",
-      "name": "./node_modules/_core-js@2.6.10@core-js/library/modules/es6.array.from.js",
-      "file": "static/chunks/commons.26d00b5eefcf4b031b6c.js",
-      "publicPath": "static/chunks/commons.26d00b5eefcf4b031b6c.js"
+      "id": "+SFK",
+      "name": "./node_modules/core-js/library/fn/symbol/index.js",
+      "file": "static/chunks/commons.0ae519929fe7f377f506.js",
+      "publicPath": "static/chunks/commons.0ae519929fe7f377f506.js"
     },
     {
-      "id": "/Z+G",
-      "name": "./static/scss/common.scss",
-      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
-      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+      "id": 0,
+      "name": null,
+      "file": "static/chunks/styles.2f813ded5177335547f7.js",
+      "publicPath": "static/chunks/styles.2f813ded5177335547f7.js"
     },
     {
-      "id": "5M6V",
-      "name": "./components/layout.tsx",
-      "file": "static/chunks/2f72.c3461551f77ff4af02c2.js",
-      "publicPath": "static/chunks/2f72.c3461551f77ff4af02c2.js"
+      "id": "+wdc",
+      "name": "./node_modules/scheduler/cjs/scheduler.production.min.js",
+      "file": "static/chunks/b59d.229f1304516b74be603c.js",
+      "publicPath": "static/chunks/b59d.229f1304516b74be603c.js"
     }
   ],
   "./Black": [
     {
-      "id": "/Z+G",
-      "name": "./static/scss/common.scss",
-      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
-      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+      "id": 0,
+      "name": null,
+      "file": "static/chunks/styles.2f813ded5177335547f7.js",
+      "publicPath": "static/chunks/styles.2f813ded5177335547f7.js"
     },
     {
       "id": "LfW2",
       "name": "./components/Black.tsx",
-      "file": "static/chunks/7e02.77dd8f2cefab74d12144.js",
-      "publicPath": "static/chunks/7e02.77dd8f2cefab74d12144.js"
+      "file": "static/chunks/7e02.20702cb225e56c1e58a1.js",
+      "publicPath": "static/chunks/7e02.20702cb225e56c1e58a1.js"
     }
   ],
   "./Message": [
     {
-      "id": "/Z+G",
-      "name": "./static/scss/common.scss",
-      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
-      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+      "id": 0,
+      "name": null,
+      "file": "static/chunks/styles.2f813ded5177335547f7.js",
+      "publicPath": "static/chunks/styles.2f813ded5177335547f7.js"
     },
     {
       "id": "giDD",
       "name": "./components/Message.tsx",
-      "file": "static/chunks/cd5c.c2d1df38d52129483a20.js",
-      "publicPath": "static/chunks/cd5c.c2d1df38d52129483a20.js"
+      "file": "static/chunks/cd5c.0d27669547eb08ab32b1.js",
+      "publicPath": "static/chunks/cd5c.0d27669547eb08ab32b1.js"
     }
   ],
   "./Sidebar": [
     {
-      "id": "+P61",
-      "name": "./node_modules/_core-js@2.6.10@core-js/library/modules/es6.array.from.js",
-      "file": "static/chunks/commons.26d00b5eefcf4b031b6c.js",
-      "publicPath": "static/chunks/commons.26d00b5eefcf4b031b6c.js"
+      "id": "+SFK",
+      "name": "./node_modules/core-js/library/fn/symbol/index.js",
+      "file": "static/chunks/commons.0ae519929fe7f377f506.js",
+      "publicPath": "static/chunks/commons.0ae519929fe7f377f506.js"
     },
     {
-      "id": "/Z+G",
-      "name": "./static/scss/common.scss",
-      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
-      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+      "id": 0,
+      "name": null,
+      "file": "static/chunks/styles.2f813ded5177335547f7.js",
+      "publicPath": "static/chunks/styles.2f813ded5177335547f7.js"
     },
     {
-      "id": "+Aep",
-      "name": "./node_modules/_core-js@2.6.10@core-js/modules/es6.string.blink.js",
-      "file": "static/chunks/f0cd.52330f5f1fc6f0f67b7f.js",
-      "publicPath": "static/chunks/f0cd.52330f5f1fc6f0f67b7f.js"
+      "id": "+JPL",
+      "name": "./node_modules/babel-runtime/core-js/symbol.js",
+      "file": "static/chunks/5aef.845f300d680382ce6df7.js",
+      "publicPath": "static/chunks/5aef.845f300d680382ce6df7.js"
     }
   ],
   "./search": [
     {
-      "id": "+P61",
-      "name": "./node_modules/_core-js@2.6.10@core-js/library/modules/es6.array.from.js",
-      "file": "static/chunks/commons.26d00b5eefcf4b031b6c.js",
-      "publicPath": "static/chunks/commons.26d00b5eefcf4b031b6c.js"
+      "id": "+SFK",
+      "name": "./node_modules/core-js/library/fn/symbol/index.js",
+      "file": "static/chunks/commons.0ae519929fe7f377f506.js",
+      "publicPath": "static/chunks/commons.0ae519929fe7f377f506.js"
     },
     {
-      "id": "/Z+G",
-      "name": "./static/scss/common.scss",
-      "file": "static/chunks/styles.9398282bfb79ba99de8d.js",
-      "publicPath": "static/chunks/styles.9398282bfb79ba99de8d.js"
+      "id": 0,
+      "name": null,
+      "file": "static/chunks/styles.2f813ded5177335547f7.js",
+      "publicPath": "static/chunks/styles.2f813ded5177335547f7.js"
     },
     {
       "id": "GVKV",
       "name": "./components/scissors.tsx",
-      "file": "static/chunks/b50b.7891d5ef1bd7a94cd8ac.js",
-      "publicPath": "static/chunks/b50b.7891d5ef1bd7a94cd8ac.js"
+      "file": "static/chunks/b50b.6e02e18137d5645322d9.js",
+      "publicPath": "static/chunks/b50b.6e02e18137d5645322d9.js"
     }
   ]
 }
