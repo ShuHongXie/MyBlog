@@ -20,7 +20,7 @@
     "highlight.js": "^9.15.8",
     "isomorphic-unfetch": "^3.0.0",
     "markdown-navbar": "^1.0.7",
-    "marked": "^0.4.0",
+    "marked": "^4.0.10",
     "next": "^8.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
